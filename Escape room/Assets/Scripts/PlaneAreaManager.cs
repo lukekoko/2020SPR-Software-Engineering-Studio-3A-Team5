@@ -5,33 +5,14 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.UI;
 public class PlaneAreaManager : MonoBehaviour
 {
-    ARPlaneManager m_ARPlaneManager;
-    public GameObject objectToSpawn;
-
     private float CalculatePlaneArea(ARPlane plane)
     {
         return plane.size.x * plane.size.y;
     }
 
-    public void CheckPlanes()
-    {
-        // loop over each plane that was detected
-        foreach (var plane in m_ARPlaneManager.trackables)
-        {
-            // calclate area of each plane
-            float area = CalculatePlaneArea(plane);
-            // if (area > 0.5)
-            // {
-            // place object if area is greater than 0.5m^2
-            Instantiate(objectToSpawn, plane.center, objectToSpawn.transform.rotation);
-            // }
-        }
-    }
     // Start is called before the first frame update
     void Start()
     {
-        m_ARPlaneManager = GetComponent<ARPlaneManager>();
-        // Instantiate(objectToSpawn, new Vector3(0, 0, 0), Quaternion.identity);
     }
 
     // Update is called once per frame
@@ -56,6 +37,5 @@ public class PlaneAreaManager : MonoBehaviour
                 }
             }
         }
-        CheckPlanes();
     }
 }

@@ -8,6 +8,7 @@ public class PlaneAreaBehaviour : MonoBehaviour
 {
     public TextMeshPro areaText;
     public ARPlane ARPlane;
+    public bool hasObjOn = false;
 
     private void OnEnable()
     {
@@ -39,7 +40,7 @@ public class PlaneAreaBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        hasObjOn = false;
     }
 
     // Update is called once per frame
