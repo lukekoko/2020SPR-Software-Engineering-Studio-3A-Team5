@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 705507994}
+  m_Sun: {fileID: 0}
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -2339,7 +2339,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503115303}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &677026363
 MeshCollider:
@@ -4693,9 +4693,9 @@ GameObject:
   - component: {fileID: 1092440740}
   - component: {fileID: 1092440739}
   - component: {fileID: 1092440738}
-  - component: {fileID: 1092440743}
   - component: {fileID: 1092440742}
   - component: {fileID: 1092440744}
+  - component: {fileID: 1092440743}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -4773,11 +4773,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092440737}
   m_LocalRotation: {x: 0.0024227977, y: 0.00889881, z: 0.004533881, w: 0.99994725}
-  m_LocalPosition: {x: 0.35, y: 1.87, z: -1.04}
+  m_LocalPosition: {x: -0.11, y: 1.87, z: 0.03}
   m_LocalScale: {x: 0.39999995, y: 0.40000007, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1503115303}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0.273, y: 1.021, z: 0.522}
 --- !u!64 &1092440742
 MeshCollider:
@@ -4808,7 +4808,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1092440744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5763,11 +5763,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1373629048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.82, y: -1.9915519, z: -2.53}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1503115303}
-  m_RootOrder: 76
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1376943835
 GameObject:
@@ -6257,9 +6257,9 @@ Transform:
   - {fileID: 411224329}
   - {fileID: 363643758}
   - {fileID: 1206069280}
-  - {fileID: 1373629049}
   - {fileID: 677026362}
   - {fileID: 1092440741}
+  - {fileID: 1373629049}
   m_Father: {fileID: 1849474371}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
