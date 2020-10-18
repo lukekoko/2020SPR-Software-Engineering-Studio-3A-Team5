@@ -6,7 +6,7 @@ using UnityEngine.XR.ARFoundation;
 
 public class PlaneAreaBehaviour : MonoBehaviour
 {
-    public TextMeshPro areaText;
+    // public TextMeshPro areaText;
     public ARPlane ARPlane;
     public bool hasObjOn = false;
 
@@ -22,20 +22,20 @@ public class PlaneAreaBehaviour : MonoBehaviour
 
     private void ArPlaneBoundaryChanged(ARPlaneBoundaryChangedEventArgs obj)
     {
-        areaText.text = CalculatePlaneArea(ARPlane).ToString();
+        // areaText.text = CalculatePlaneArea(ARPlane).ToString();
     }
     private float CalculatePlaneArea(ARPlane plane)
     {
         return plane.size.x * plane.size.y;
     }
 
-    public void ToggleAreaView()
-    {
-        if (areaText.enabled)
-            areaText.enabled = false;
-        else
-            areaText.enabled = true;
-    }
+    // public void ToggleAreaView()
+    // {
+    //     if (areaText.enabled)
+    //         areaText.enabled = false;
+    //     else
+    //         areaText.enabled = true;
+    // }
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +46,6 @@ public class PlaneAreaBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        areaText.transform.rotation = Quaternion.LookRotation(areaText.transform.position - Camera.main.transform.position);
+        // areaText.transform.rotation = Quaternion.LookRotation(areaText.transform.position - Camera.main.transform.position);
     }
 }
