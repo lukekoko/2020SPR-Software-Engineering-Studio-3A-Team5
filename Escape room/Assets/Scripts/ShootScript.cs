@@ -7,8 +7,8 @@ public class ShootScript : MonoBehaviour
 {
     public GameObject arCamera;
     public GameObject smoke;
-    private int score = 0;
-    private int shots = 12;
+    public int score = 0;
+    public int shots = 12;
     public GameObject scoreText, shotsText;
     public bool done = false;
 

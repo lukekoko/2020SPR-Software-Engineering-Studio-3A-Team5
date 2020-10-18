@@ -25,6 +25,8 @@ public class GameLogic : MonoBehaviour
         {
             // display end screen
             endScreen.SetActive(true);
+            scoreText.GetComponent<Text>().text = shootScript.score.ToString();
+            missedText.GetComponent<Text>().text = (12 - shootScript.score).ToString();
         }
     }
 }
