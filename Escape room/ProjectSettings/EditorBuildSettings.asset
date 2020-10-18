@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HoopRingThrow.unity
+    guid: c1b18c1b3c2e51742a65af765dbd8132
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e50cb36d3858be0488d1af1d9a7bc14d, type: 2}

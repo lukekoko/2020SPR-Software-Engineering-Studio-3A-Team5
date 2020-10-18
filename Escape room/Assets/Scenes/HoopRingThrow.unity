@@ -242,7 +242,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   placementIndicator: {fileID: 586190681}
-  objectToPlace: {fileID: 2897812060354932511, guid: 610c9fe7a64b3784abc880c2d5969e63, type: 3}
+  stakeObject: {fileID: 2897812060354932511, guid: 610c9fe7a64b3784abc880c2d5969e63, type: 3}
+  hoopObject: {fileID: 2897812060354932511, guid: 610c9fe7a64b3784abc880c2d5969e63, type: 3}
 --- !u!4 &730694683
 Transform:
   m_ObjectHideFlags: 0

@@ -3,7 +3,10 @@ guid: 477a888a315658c4e9e303d6ac041a2a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - placementIndicator: {instanceID: 0}
+  - stakeObject: {fileID: 2897812060354932511, guid: 610c9fe7a64b3784abc880c2d5969e63, type: 3}
+  - hoopObject: {fileID: 2897812060354932511, guid: 610c9fe7a64b3784abc880c2d5969e63, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
