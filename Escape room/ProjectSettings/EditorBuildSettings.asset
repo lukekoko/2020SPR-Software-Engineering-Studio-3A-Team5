@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/krijanscene.unity
+    guid: 2a372c6e809826d42980eb0a18aa9cc4
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: d0b6f9b206fae9e49b24850f76acb7c4
   m_configObjects: {}
